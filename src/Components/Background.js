@@ -1,0 +1,17 @@
+import React from 'react';
+
+const Background = () => {
+  return (
+    <main>
+      <div id="background-img">
+        <img
+          src="./img/bgnav.jpg"
+          alt="ispace" 
+          className="responsive-image"
+        />
+      </div>
+    </main>
+  );
+};
+
+export default Background;
